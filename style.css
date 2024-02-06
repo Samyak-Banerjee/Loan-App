@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(188, 189, 182);
+}
+
+.logo {
+  height: 100px;
+  width: 400px;
+  margin: 30px 530px;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 999;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.info {
+  height: 35px;
+  width: 100%;
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info input {
+  height: 35px;
+  width: 370px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin: 0 35px;
+  font-size: 19px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.info button {
+  height: 35px;
+  width: 260px;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size: 19px;
+  text-align: center;
+  line-height: 35px;
+  margin: 8px 20px;
+  cursor: pointer;
+  background-color: rgb(50, 111, 208);
+  color: white;
+}
+
+.Rate-SI {
+  height: 35px;
+  width: 100%;
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Rate-SI p {
+  height: 35px;
+  width: 370px;
+  text-align: center;
+  font-size: 19px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin: 0 20px;
+  line-height: 35px;
+  background-color: #fff;
+}
+
+.Approval-Denial {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Approved {
+  height: 300px;
+  width: 400px;
+  color: green;
+  font-size: 28px;
+  border: 2px solid green;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 110px;
+  opacity: 0;
+}
+
+.Approved img {
+  height: 200px;
+  width: 200px;
+}
+
+.Denied {
+  height: 300px;
+  width: 400px;
+  color: red;
+  font-size: 28px;
+  border: 2px solid red;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 110px;
+  opacity: 0;
+}
+
+.Denied img {
+  height: 200px;
+  width: 200px;
+}
